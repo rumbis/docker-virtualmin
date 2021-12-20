@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:bullseye-20211011
 MAINTAINER cutech <cody@c-u-tech.com>
 ADD http://software.virtualmin.com/gpl/scripts/install.sh /root
 ADD https://raw.githubusercontent.com/cutech/docker-virtualmin/master/deb-stretch/entrypoint.sh /
